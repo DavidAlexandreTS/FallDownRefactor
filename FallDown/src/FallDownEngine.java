@@ -22,7 +22,7 @@ public class FallDownEngine
 
 	public FallDownEngine()
 	{
-		ball = new Ball(WIDTH/2, HEIGHT/2);
+		ball = Ball.getInstance(WIDTH/2, HEIGHT/2);
 		createBrickLayer();
 	}
 
